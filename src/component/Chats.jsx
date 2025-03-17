@@ -5,7 +5,7 @@ import Input from './Input.jsx'
  const Chats = () =>{
    return (
 
-    <div className=' hidden
+    <div className=' hidden lg:flex item-center max-h-full flex-col
     '>
       <div className="flex justify-end p-3">
         <img className='w-8 cursor-pointer' src={setingIcons} alt="" />
