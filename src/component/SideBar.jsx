@@ -14,8 +14,8 @@ const SideBar = () => {
             <div className='flex items-center gap-5'>
               <img className='w-12 h-12 md:w-14 md:h-14 object-cover rounded-full' src={users.images} alt="" />
               <div className='flex-col justify-center'>
-                <h2 className='font-bold text-sm md:text-lg lg:text-xl'>{users.name}</h2>
-                <p className='text-xs md:text-sm lg:text-base text-gray-600'>{users.greeting}</p>
+                <h2 className='font-bold text-sm md:text-lg lg:text-2xl'>{users.name}</h2>
+                <p className='text-xs md:text-sm lg:text-lg text-gray-600'>{users.greeting}</p>
               </div>
             </div>
             <span className="bg-purple-500 rounded-full px-3 text-white text-xs md:text-sm text-center my-2 font-semibold">

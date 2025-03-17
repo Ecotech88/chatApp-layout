@@ -1,7 +1,7 @@
 
 const Messages = () => { 
   return (
-    <div className=' p-10 gap-4 flex flex-col
+    <div className=' p-10 gap-4 lg:flex flex-col
      hidden md:hidden lg:basis-[100%]'>
 
         <div className='rounded-full w-10 h-10 bg-green-800 text-white text-center
