@@ -3,12 +3,12 @@ import { Users } from '../constant/Data';
 
 const SideBar = () => {
   return (
-    <div className='flex flex-col justify-between lg:max-w-[400px] border-yellow-50 max-h-screen border-r-2 lg:shadow-xl md:w-full'>
-      <div className="md:p-4 flex ml-1 justify-between items-center">
+    <div className='flex flex-col justify-between lg:max-w-[400px]  max-h-screen border-r-2 md:w-full'>
+      <div className="md:p-2 flex ml-1 justify-between items-center">
         <img className='shadow-lg shadow-gray-600 w-8 bg-white border-none rounded-full p-1 cursor-pointer' src={backIcon} alt="" />
       </div>
 
-      <div className='flex-1 mt-3 overflow-y-auto border-b-2 md:w-full lg:w-auto hide-scrollbar' style={{ maxHeight: 'calc(100vh - 200px)' }}>
+      <div className='grow-2 mt-3 overflow-y-auto border-b-2 md:w-full lg:w-auto hide-scrollbar' style={{ maxHeight: 'calc(100vh - 200px)' }}>
         {Users.map((users, id) => (
           <div key={id} className="border-b-2 py-4 px-4 hover:bg-gray-100 cursor-pointer transition duration-100 flex items-start justify-between gap-4">
             <div className='flex items-center gap-5'>
