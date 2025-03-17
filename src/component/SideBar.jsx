@@ -3,14 +3,14 @@ import { Users } from '../constant/Data';
 
 const SideBar = () => {
   return (
-    <div className='flex flex-col justify-between lg:max-w-[300px]  max-h-screen border-r-2 md:w-full'>
+    <div className='flex flex-col justify-between lg:max-w-[400px]  max-h-screen border-r-2 md:w-full'>
       <div className="md:p-2 flex ml-1 justify-between items-center">
         <img className='shadow-lg shadow-gray-600 w-8 bg-white border-none rounded-full p-1 cursor-pointer' src={backIcon} alt="" />
       </div>
 
-      <div className='basis-[100%] mt-3 overflow-y-auto border-b-2 md:w-full lg:w-auto hide-scrollbar'>
+      <div className='basis-[100%] mt-2 overflow-y-auto border-b-2 md:w-full lg:w-auto hide-scrollbar'>
         {Users.map((users, id) => (
-          <div key={id} className="border-b-2 py-4 px-4 hover:bg-gray-100 cursor-pointer transition duration-100 flex items-start justify-between gap-4">
+          <div key={id} className="border-b-2 lg:p-2  hover:bg-gray-100 cursor-pointer transition duration-100 flex items-start justify-between gap-3">
             <div className='flex items-center gap-5'>
               <img className='w-12 h-12 md:w-14 md:h-14 object-cover rounded-full' src={users.images} alt="" />
               <div className='flex-col justify-center'>
