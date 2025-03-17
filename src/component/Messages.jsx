@@ -2,7 +2,7 @@
 const Messages = () => { 
   return (
     <div className=' p-10 gap-4 flex flex-col
-     hidden md:hidden lg:flex-2'>
+     hidden md:hidden lg:basis-[100%]'>
 
         <div className='rounded-full w-10 h-10 bg-green-800 text-white text-center
          flex items-center justify-center font-bold text-3xl p-6'>A</div>
