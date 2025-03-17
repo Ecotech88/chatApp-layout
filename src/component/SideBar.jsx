@@ -25,8 +25,8 @@ const SideBar = () => {
         ))}
       </div>
 
-      <div className='w-full bg-white border-red-700 border-2 rounded-lg shadow-sm shadow-red-400 p-4 bg-red-200/20 mx-2 sm:mx-4'>
-        <span className='text-white bg-red-500 px-2 rounded-sm text-sm md:text-base'>SAFETY TIPS: </span>
+      <div className='max-w-full bg-white border-red-700 border-2 rounded-lg shadow-sm shadow-red-400 md:p-4 bg-red-200/20 mx-1 sm:mx-4'>
+        <span className='text-white bg-red-500 md:px-2 rounded-sm text-sm md:text-base'>SAFETY TIPS: </span>
         <div className='text-red-600 font-medium mt-2 space-y-2'>
           <p className='text-xs md:text-sm leading-normal'>-Roomi support Will NOT reach out via email </p>
           <p className='text-xs md:text-sm leading-normal'>-DO NOT send money before meeting in person</p>
