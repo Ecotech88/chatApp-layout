@@ -3,7 +3,7 @@ import { Users } from '../constant/Data';
 
 const SideBar = () => {
   return (
-    <div className='flex flex-col justify-between lg:max-w-[300px] border-yellow-50 max-h-screen border-r-2 lg:shadow-xl md:w-full'>
+    <div className='flex flex-col justify-between lg:max-w-[400px] border-yellow-50 max-h-screen border-r-2 lg:shadow-xl md:w-full'>
       <div className="md:p-4 flex ml-1 justify-between items-center">
         <img className='shadow-lg shadow-gray-600 w-8 bg-white border-none rounded-full p-1 cursor-pointer' src={backIcon} alt="" />
       </div>
@@ -25,7 +25,7 @@ const SideBar = () => {
         ))}
       </div>
 
-      <div className='max-w-full bg-white border-red-700 border-2 rounded-lg lg:shadow-sm lg:shadow-red-400 md:p-4 bg-red-200/20 mx-1 sm:mx-4'>
+      <div className='max-w-full bg-white border-red-700 border-2 rounded-lg lg:shadow-sm lg:shadow-red-400 md:p-2 bg-red-200/20 mx-1 sm:mx-4'>
         <span className='text-white bg-red-500 md:px-2 rounded-sm text-sm md:text-base'>SAFETY TIPS: </span>
         <div className='text-red-600 font-medium mt-2 md:space-y-2'>
           <p className='text-xs md:text-sm leading-normal'>-Roomi support Will NOT reach out via email </p>
