@@ -3,7 +3,7 @@ import Chats from './Chats.jsx'
 
 const MessageTab = () => {
   return (
-    <div className=' max-h-screen  gap-1 '>
+    <div className=' h-screen  gap-1 '>
         <SideBar/>
         <Chats/>
     </div>
