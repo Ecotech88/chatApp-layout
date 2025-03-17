@@ -3,7 +3,7 @@ import Chats from './Chats.jsx'
 
 const MessageTab = () => {
   return (
-    <div className='lg:flex max-w-full h-screen overflow-hidden '>
+    <div className='lg:flex max-w-full h-screen overflow-hidden gap-2 '>
         <SideBar/>
         <Chats/>
     </div>
