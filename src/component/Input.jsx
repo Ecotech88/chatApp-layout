@@ -4,7 +4,7 @@ import imgIcon from '../assets/image.png'
 const Input = () => {
   return (
 
-    <div className='min-w-full max-h-[100px] rounded-md border-2 p-5 flex flex-col gap-3 mx-6 lg:mx-auto'>
+    <div className='max-w-full max-h-[100px] rounded-md border-2 p-5 flex flex-col gap-3 '>
 <div className='flex justify-between items-center'> 
        <div className='flex flex-col items-center w-3/4 '>
             <textarea 
