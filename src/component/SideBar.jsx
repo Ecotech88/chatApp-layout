@@ -14,23 +14,23 @@ const SideBar = () => {
             <div className='flex items-center gap-5'>
               <img className='w-12 h-12 md:w-14 md:h-14 object-cover rounded-full' src={users.images} alt="" />
               <div className='flex-col justify-center'>
-                <h2 className='font-bold text-sm md:text-xl'>{users.name}</h2>
-                <p className='text-sm md:text-lg'>{users.greeting}</p>
+                <h2 className='font-bold text-sm md:text-lg lg:text-xl'>{users.name}</h2>
+                <p className='text-xs md:text-sm lg:text-base text-gray-600'>{users.greeting}</p>
               </div>
             </div>
-            <span className="bg-purple-500 rounded-full px-3 text-white text-sm md:text-lg text-center my-2 font-semibold">
+            <span className="bg-purple-500 rounded-full px-3 text-white text-xs md:text-sm text-center my-2 font-semibold">
               LOOKING
             </span>
           </div>
         ))}
       </div>
 
-      <div className='w-full md:mx-auto sm:w-full bg-white border-red-700 border-2 m-4 rounded-lg shadow-sm shadow-red-400 p-4 bg-red-200/20'>
-        <span className='text-white bg-red-500 px-2 rounded-sm'>SAFETY TIPS: </span>
-        <div className='text-red-600 font-medium'>
-          <p className='sm:w-full text-sm'>-Roomi support Will NOT reach out via email </p>
-          <p className='sm:w-full text-sm'>-DO NOT send money before meeting in person</p>
-          <p className='sm:w-full text-sm'>-Please flag suspicious behavior</p>
+      <div className='w-full bg-white border-red-700 border-2 rounded-lg shadow-sm shadow-red-400 p-4 bg-red-200/20 mx-2 sm:mx-4'>
+        <span className='text-white bg-red-500 px-2 rounded-sm text-sm md:text-base'>SAFETY TIPS: </span>
+        <div className='text-red-600 font-medium mt-2 space-y-2'>
+          <p className='text-xs md:text-sm leading-normal'>-Roomi support Will NOT reach out via email </p>
+          <p className='text-xs md:text-sm leading-normal'>-DO NOT send money before meeting in person</p>
+          <p className='text-xs md:text-sm leading-normal'>-Please flag suspicious behavior</p>
         </div>
       </div>
     </div>
